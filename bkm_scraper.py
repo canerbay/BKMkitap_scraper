@@ -84,17 +84,3 @@ def fetch_books_from_api(query="macera"):
     except Exception as e:
         print(f"İstek sırasında hata oluştu: {e}")
         return pd.DataFrame()
-
-# --- Kullanım Örneği ---
-if __name__ == "__main__":
-    keyword = "korku"
-    print(f"'{keyword}' için veri çekiliyor...")
-    
-    df = fetch_books_from_api(query=keyword)
-    
-    if not df.empty:
-        print(f"Toplam {len(df)} kitap başarıyla çekildi.")
-        # df.to_csv(f"bkm_{keyword}.csv", index=False)
-        print(df)
-    else:
-        print("Veri bulunamadı.")
