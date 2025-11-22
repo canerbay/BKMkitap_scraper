@@ -1,6 +1,6 @@
 # BKM Kitap Scraper
 
-BKM Kitap'ın arama API'sini kullanarak kitap verilerini çeken minimal Python fonksiyonu.
+BKM Kitap'ın arama API'sini kullanarak kitap verilerini çeken bir Python fonksiyonu.
 
 
 ## Kurulum
